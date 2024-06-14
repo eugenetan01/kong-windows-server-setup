@@ -12,7 +12,7 @@ __5. Go to connect to created ec2 instance__
 __6. Choose administrator as username__
 
 __7. Go to get password and paste in the private key used to create ec2__
-![ec2-connect](/setup-kong-windows/img/ec2-connect.png)
+![ec2-connect](/kong_windows_setup/img/ec2-connect.png)
 
 __8. Click decrypt password__
 
@@ -60,7 +60,7 @@ __21. Press Ctrl + Shift + Enter to open Command Prompt as an administrator.__
 __1. Go to kong konnect and go to gateway manager -> Data Plane nodes__
 
 __2. Click create a data plane node and choose windows__
-![DP](/setup-kong-windows/img/dp.png)
+![DP](/kong_windows_setup/img/dp.png)
 
 __3. Copy the docker run command__
 
@@ -80,15 +80,15 @@ __7. Create a service and route and test the connectivity to data plane via Edge
 __1. Go to "Windows Defender Firewall" and click "advanced settings"__
 
 __2. Click "Inbound Rules" -> "New Rule"__
-![windows](/setup-kong-windows/img/windows_defender.png)
+![windows](/kong_windows_setup/img/windows_defender.png)
 
 __3. Follow the wizard when creating new rule__
 - Click port
 - allow specific local ports: 8000
 - Allow the connection
 - Allow the rule on domain, private and public
-![config](/setup-kong-windows/img/windows_defender_config.png)
+![config](/kong_windows_setup/img/windows_defender_config.png)
 - Name: "kong"
 
 __4. Go to insomnia or try from local laptop browser to access the ec2 public domain and see if it's a success 200 response__
-![insomnia](/setup-kong-windows/img/insomnia.png)
+![insomnia](/kong_windows_setup/img/insomnia.png)
