@@ -60,7 +60,7 @@ __21. Press Ctrl + Shift + Enter to open Command Prompt as an administrator.__
 __1. Go to kong konnect and go to gateway manager -> Data Plane nodes__
 
 __2. Click create a data plane node and choose windows__
-![DP](/kong_windows_setup/img/dp.png)
+![DP](/kong-windows-setup/img/dp.png)
 
 __3. Copy the docker run command__
 
