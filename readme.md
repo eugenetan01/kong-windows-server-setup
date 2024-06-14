@@ -51,9 +51,9 @@ __18. Wait for docker engine to start__
 
 __19. Go to command prompt and run as admin__
 
-__20. Type cmd in the Run dialog.__
+__20. Type "Windows Powershell" in the Run dialog.__
 
-__21. Press Ctrl + Shift + Enter to open Command Prompt as an administrator.__
+__21. Press Ctrl + Shift + Enter to open Windows Powershell as an administrator.__
 - If prompted by User Account Control (UAC), click "Yes" to allow the application to make changes to your device.
 - Run `docker ps -a` to verify if the gateway container is running
 
