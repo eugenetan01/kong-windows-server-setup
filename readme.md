@@ -12,7 +12,7 @@ __5. Go to connect to created ec2 instance__
 __6. Choose administrator as username__
 
 __7. Go to get password and paste in the private key used to create ec2__
-![ec2-connect](/kong-windows-server-setup/img/ec2-connect.png)
+![ec2-connect](/img/ec2-connect.png)
 
 __8. Click decrypt password__
 
@@ -60,7 +60,7 @@ __21. Press Ctrl + Shift + Enter to open Command Prompt as an administrator.__
 __1. Go to kong konnect and go to gateway manager -> Data Plane nodes__
 
 __2. Click create a data plane node and choose windows__
-![DP](/kong-windows-setup/img/dp.png)
+![DP](/img/dp.png)
 
 __3. Copy the docker run command__
 
