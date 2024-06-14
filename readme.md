@@ -55,6 +55,7 @@ __20. Type cmd in the Run dialog.__
 
 __21. Press Ctrl + Shift + Enter to open Command Prompt as an administrator.__
 - If prompted by User Account Control (UAC), click "Yes" to allow the application to make changes to your device.
+- Run `docker ps -a` to verify if the gateway container is running
 
 # Execution:
 __1. Go to kong konnect and go to gateway manager -> Data Plane nodes__
